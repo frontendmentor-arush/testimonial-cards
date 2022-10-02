@@ -136,6 +136,11 @@ header img{
 
 @media (max-width:720px) {
  
+    body{
+        
+        display: block;
+    }
+
     .cards{
         grid-template-columns: repeat(auto,1fr);
         grid-row: repeat(auto, 1fr);
