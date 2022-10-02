@@ -18,6 +18,10 @@
 body{
     background-color:var(--Light-grayish-blue);
     font-family: Barlow Semi Condensed,'sans serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
@@ -168,4 +172,12 @@ header img{
         width: 300px;
      }
      
+}
+
+
+@media (min-width:1800px) {
+    .card1{
+      background-position: 20vw 0vh;
+    }
+
 }
